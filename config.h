@@ -9,7 +9,7 @@ static char *font = "terminus:size=14:style=bold:antialias=true:autohint=true";
 static char *font2[] = { "fontawesome:style=Solid:pixelsize=14:antialias=true:autohint=true",
                          "fontawesomebrands:style=Solid:pixelsize=14:antialias=true:autohint=true",
                          "emoji:style=Solid:pixelsize=14:antialias=true:autohint=true"};
-static int borderpx = 2;
+static int borderpx = 1;
 
 /*
  * What program is execed by st depends of these precedence rules:
@@ -109,7 +109,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.85;
+float alpha = 0.87;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
@@ -134,7 +134,7 @@ static const char *colorname[] = {
 	"#8fbcbb", /* cyan    */
 	"#eceff4", /* white   */
 
-	
+
 	[255] = 0,
 	/* more colors can be added after 255 to use with DefaultXX */
 	"#add8e6", /* 256 -> cursor */
