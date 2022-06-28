@@ -119,13 +119,13 @@ static const char *colorname[] = {
 	"#bf616a", /* red     */
 	"#a3be8c", /* green   */
 	"#ebcb8b", /* yellow  */
-	"#81a1c1", /* blue    */
+	"#5e81ac", /* blue    */
 	"#b48ead", /* magenta */
 	"#88c0d0", /* cyan    */
-	"#e5e9f0", /* white   */
+	"#d8dee9", /* white   */
 
 	/* 8 bright colors*/
-	"#4c566a", /* black   */
+	"#3b4252", /* black   */
 	"#bf616a", /* red     */
 	"#a3be8c", /* green   */
 	"#ebcb8b", /* yellow  */
@@ -279,8 +279,8 @@ static Shortcut shortcuts[] = {
 	{ MODKEY,               XK_Down,        kscrolldown,    {.i =  1} },
 	{ MODKEY,               XK_u,           kscrollup,      {.i = -1} },
 	{ MODKEY,               XK_d,           kscrolldown,    {.i = -1} },
-	{ MODKEY,		XK_s,		changealpha,	{.f = -0.05} },
-	{ MODKEY,		XK_a,		changealpha,	{.f = +0.05} },
+	{ MODKEY,		        XK_s,		    changealpha,	{.f = -0.05} },
+	{ MODKEY,		        XK_a,	    	changealpha,	{.f = +0.05} },
 	{ TERMMOD,              XK_Up,          zoom,           {.f = +1} },
 	{ TERMMOD,              XK_Down,        zoom,           {.f = -1} },
 	{ TERMMOD,              XK_K,           zoom,           {.f = +1} },
