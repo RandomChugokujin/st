@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "terminus:size=14:style=bold:antialias=true:autohint=true";
+static char *font = "terminus:size=16:style=bold:antialias=true:autohint=true";
 static char *font2[] = { "fontawesome:style=Solid:pixelsize=14:antialias=true:autohint=true",
                          "fontawesomebrands:style=Solid:pixelsize=14:antialias=true:autohint=true",
                          "emoji:style=Solid:pixelsize=14:antialias=true:autohint=true"};
