@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "terminus:size=16:style=bold:antialias=true:autohint=true";
+static char *font = "hack:size=14:antialias=true:autohint=true";
 static char *font2[] = { "fontawesome:style=Solid:pixelsize=14:antialias=true:autohint=true",
                          "fontawesomebrands:style=Solid:pixelsize=14:antialias=true:autohint=true",
                          "emoji:style=Solid:pixelsize=14:antialias=true:autohint=true"};
@@ -109,7 +109,7 @@ char *termname = "st-256color";
 unsigned int tabspaces = 8;
 
 /* bg opacity */
-float alpha = 0.87;
+float alpha = 0.9;
 float alphaOffset = 0.0;
 float alphaUnfocus;
 
