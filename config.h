@@ -6,8 +6,9 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "hack:size=14:antialias=true:autohint=true";
-static char *font2[] = { "fontawesome:style=Solid:pixelsize=14:antialias=true:autohint=true",
-                         "fontawesomebrands:style=Solid:pixelsize=14:antialias=true:autohint=true",
+static char *font2[] = { //"fontawesome:style=Solid:pixelsize=14:antialias=true:autohint=true",
+                         //"fontawesomebrands:style=Solid:pixelsize=14:antialias=true:autohint=true",
+                         "Symbols Nerd Font:size=14:antialias=true",
                          "emoji:style=Solid:pixelsize=14:antialias=true:autohint=true"};
 static int borderpx = 1;
 
